@@ -1,0 +1,17 @@
+{
+	"name": "ls_database",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "myadfserver1.database.windows.net",
+			"database": "myadfdb1",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "ragnaradmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDZENDY0QTM3LTkwOUYtNERCQi04MzRGLUNERDQ5OTk1NDI5Nl84MzY1M2VmMC1mMDJjLTQ5OGMtYjRhMC05ZDAzYzQ0NjliMDIiDQp9"
+		}
+	}
+}
